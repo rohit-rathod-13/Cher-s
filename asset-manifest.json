@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cher-s/static/css/main.fad13349.css",
+    "main.js": "/Cher-s/static/js/main.b8947920.js",
+    "static/js/453.88612547.chunk.js": "/Cher-s/static/js/453.88612547.chunk.js",
+    "static/media/hero-bg.jpg": "/Cher-s/static/media/hero-bg.66c2a71293dff544afd8.jpg",
+    "index.html": "/Cher-s/index.html",
+    "main.fad13349.css.map": "/Cher-s/static/css/main.fad13349.css.map",
+    "main.b8947920.js.map": "/Cher-s/static/js/main.b8947920.js.map",
+    "453.88612547.chunk.js.map": "/Cher-s/static/js/453.88612547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fad13349.css",
+    "static/js/main.b8947920.js"
+  ]
+}
