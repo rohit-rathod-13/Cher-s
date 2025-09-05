@@ -31,12 +31,13 @@
 
 .service-item {
   background: rgba(255, 255, 255, 0.95);
-  border-radius: 12px;
-  padding: 2.5rem;
+  border-radius: 8px;
+  padding: 2rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .service-item::after {
@@ -54,7 +55,7 @@
 
 .service-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 15px rgba(212, 175, 55, 0.2);
 }
 
 .service-item:hover::after {
@@ -68,6 +69,12 @@
   line-height: 1.6;
 }
 
+.service-content h3 {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
 .formats {
   margin-top: 4rem;
   background: linear-gradient(135deg, #fff, #f8f9fa);
@@ -79,6 +86,22 @@
 
 .formats:hover {
   transform: translateY(-3px);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.services-grid.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media screen and (max-width: 768px) {
